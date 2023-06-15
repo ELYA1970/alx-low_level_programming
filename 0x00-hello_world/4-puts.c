@@ -1,7 +1,7 @@
 #include<stdio.h>
 /**
- * main :without arguments
- *return :Always 0
+ * main - without arguments
+ * Return: Always 0
  */
 int main(void)
 {
