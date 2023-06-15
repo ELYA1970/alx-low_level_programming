@@ -1,7 +1,10 @@
 #include<stdio.h>
+/**
+ * main :without arguments
+ *return :Always 0
+ */
 int main(void)
 {
-	/*Print strings*/
-	puts("Programming is like building a multilingual puzzle");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
