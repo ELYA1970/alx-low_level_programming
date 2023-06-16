@@ -9,15 +9,15 @@ int main(void)
 	int n;
 	printf("Enter number:");
 	scanf("%d",&n);
-	if (n>0)
+	if (n == 98)
 	{
 		printf("the number is positive\n");
 	}
-	else if (n<0)
+	else if (n == -98)
 	{
 		printf("the number is negative\n");
 	}
-	else
+	else if(n == 0)
 	{
 		printf("the number is zero\n");
 	}
