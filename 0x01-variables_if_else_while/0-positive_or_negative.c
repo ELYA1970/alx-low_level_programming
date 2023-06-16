@@ -7,19 +7,20 @@
 int main(void)
 {
 	int n;
+
 	printf("Enter number:");
-	scanf("%d",&n);
-	if (n == 98)
+	scanf("%d", &n);
+	if (n > 0)
 	{
-		printf("the number is positive\n");
+		printf("%d is positive\n", n);
 	}
-	else if (n == -98)
+	else if (n < 0)
 	{
-		printf("the number is negative\n");
+		printf("%d is negative\n", n);
 	}
-	else if(n == 0)
+	else
 	{
-		printf("the number is zero\n");
+		printf("%d is zero\n", n);
 	}
 	return (0);
 }
