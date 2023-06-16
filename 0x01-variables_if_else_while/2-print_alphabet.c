@@ -11,7 +11,7 @@ int main(void)
 			, 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '\0'};
 	int i = 0;
 
-	while (i < 26)
+	while (i < 27)
 	{
 		putchar(alphabet[i]);
 		i++;
