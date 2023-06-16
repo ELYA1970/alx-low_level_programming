@@ -8,10 +8,10 @@ int main(void)
 {
 	char alphabet[27] = { 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h',
 		'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p'
-			, 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z', '\0'};
+			, 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
 	int i = 0;
 
-	while (i < 27)
+	while (i < 26)
 	{
 		putchar(alphabet[i]);
 		i++;
