@@ -7,6 +7,8 @@
 int main(void)
 {
 	int n;
+	printf("Enter number:");
+	scanf("%d",&n);
 	if (n>0)
 	{
 		printf("the number is positive\n");
