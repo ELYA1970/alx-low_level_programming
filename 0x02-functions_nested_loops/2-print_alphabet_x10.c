@@ -9,7 +9,7 @@ void print_alphabet_x10(void)
         while (i <= 122)
         {
                 _putchar(i);
-                i++
+                i++;
         }
 	j++;
 	}
