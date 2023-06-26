@@ -14,9 +14,8 @@ void rev_string(char *s)
 	{
 		putchar(*(s + i));
 	}
-	putchar('\n');
 	for (i = l - 1 ; i >= 0 ; i--)
-        {
+	{
 		*(s + i) = '\0';
-        }
+	}
 }
