@@ -1,1 +1,0 @@
-this a new project of pointers to functions
